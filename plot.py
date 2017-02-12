@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.genfromtxt('initial_data.txt')
+data = np.genfromtxt('data.txt')
 size = int(np.sqrt(data.shape[0]))
 potential = data.reshape(size, size)
 
