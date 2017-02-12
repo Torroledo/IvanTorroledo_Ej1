@@ -3,7 +3,7 @@ grafica.png: plot.py data.txt
 data.txt: placas
 	qsub submit.job 
 placas:
-	mpicc placasVer2.c -o placas
+	mpicc placas.c -o placas
 clean:
 	rm -f *png
 	rm *.txt
