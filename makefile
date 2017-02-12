@@ -6,4 +6,4 @@ placas:
 	mpicc placas.c -o placas
 clean:
 	rm -f *png
-	rm *.txt
+	rm -f *.txt
