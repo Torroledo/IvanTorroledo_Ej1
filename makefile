@@ -7,3 +7,4 @@ placas:
 clean:
 	rm -f *png
 	rm -f *.txt
+	rm -f test_scheduler*
