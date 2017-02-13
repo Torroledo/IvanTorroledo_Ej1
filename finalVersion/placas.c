@@ -5,7 +5,7 @@
 
 // Some parameters to use in the code
 int L = 5, d = 1, l = 2, V0 = 100.00;
-int m = 128, N;
+int m = 512, N;
 double h;
 
 // Functions 
